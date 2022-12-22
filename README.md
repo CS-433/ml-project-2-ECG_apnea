@@ -34,7 +34,7 @@ This project aims to find the best classification model to detect sleep apnea fr
 
 #### To generate the spectrograms and recurrence plots:
 
-1. run the ```images_creation\create_recurrence_plots.ipynb``` and ```images_creation\create_spectrograms.ipynb```, each of these scripts will create a folder for each spectrogram/recurrence_plots image and an csv that maps each image name to a label.
+1. run the ```images_creation\create_recurrence_plots.ipynb``` and ```images_creation\create_spectrograms.ipynb```, each of these scripts will create a folder for each spectrogram/recurrence_plots image and an csv that maps each image name to a label. Note it can take significant time to generate.
 
 #### To run the deep learning notebooks:
 
