@@ -9,17 +9,17 @@ This project aims to find the best classification model to detect sleep apnea fr
 3. ```base_model\base_model_train_set.csv``` Train dataset for the baseline model, it consists of labels (apnea or not) and two features(bpm and sdnn).
 4. ```base_model\create_dataset_base_model.ipynb``` In this notebook we create the datasets used in our base model
 5. ```base_model\utils.py``` Diverse utility functions
-6. ```ECG_Data\apnea-ecg-database-1.0.0``` These ECG recordings data set, for more information on it check https://physionet.org/content/apnea-ecg/1.0.0/
+6. ```ECG_Data\apnea-ecg-database-1.0.0``` This is the ECG recordings data set, for more information on it check https://physionet.org/content/apnea-ecg/1.0.0/
 7. ```ECG_Data\outputs``` These are the apnea annotations at each moment in time for each recording in a separate file txt.
 8. ```google_colab_notebooks\1D_CNN.ipynb``` This notebook implements, trains and evaluates a 1D CNN model to detect sleep apnea from 1 minute signal segments.
-9. ```google_colab_notebooks\1D_CNN_LSTM.ipynb``` This notebook implements, trains and evaluates a 1D CNN model with LSTM to detect apnea from 1 minute signal segments thus leveraging the time dependencies between segments.
+9. ```google_colab_notebooks\1D_CNN_LSTM.ipynb``` This notebook implements, trains and evaluates a 1D CNN model with LSTM to detect apnea from 1 minute signal segments, thus accounting for the time-dependency between segments.
 
-10. ```google_colab_notebooks\rp_CNN_google_net.ipynb``` This notebook uses google-net for transfer learning to make predictions of apnea on the spectrograms images generated from 1 minute signal segments
+10. ```google_colab_notebooks\rp_CNN_google_net.ipynb``` This notebook uses google-net for transfer learning to make predictions of apnea on the recurrence plots images generated from 1 minute signal segments
 11. ```google_colab_notebooks\spect_2D_CNN.ipynb``` This notebook implements, trains and evaluates a 2D CNN to detect apnea from spectrogram images generated from 1 minute signal segments
-12. ```google_colab_notebooks\spect_CNN_google_net.ipynb``` This notebook uses google-net for transfer learning to make predictions of apnea on the recurrence plot images generated from 1 minute signal segments
+12. ```google_colab_notebooks\spect_CNN_google_net.ipynb``` This notebook uses google-net for transfer learning to make predictions of apnea on the spectrograms images generated from 1 minute signal segments
 
 13. ```images_creation\create_recurrence_plots.ipynb``` In this notebook we create the recurrence plot images, and mapping to labels in a csv, that are used for the google_net model
-14. ```images_creation\create_spectrograms.ipynb``` In this notebook we create the spectrogram images, and mapping to labels in a csv, that are used for the google_net model
+14. ```images_creation\create_spectrograms.ipynb``` In this notebook we create the spectrogram images, and mapping to labels in a csv, that are used for the google_net model and 2D CNN model
 
 15. ```images_creation\utils.py``` Diverse utility functions
 
