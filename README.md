@@ -1,6 +1,6 @@
 # ML Project 2
 
-## Exploring deep learning models to detect apnea using the Physionet Apnea-ECG Database.
+## Exploring deep learning models to detect sleep apnea episodes using the Physionet Apnea-ECG Database.
 This project aims to find the best classification model to detect sleep apnea from ECG signal recordings of different subjects. The best results were obtained with 1D convolutional neural network.
 
 ### Files Description:
@@ -11,7 +11,7 @@ This project aims to find the best classification model to detect sleep apnea fr
 5. ```base_model\utils.py``` Diverse utility functions
 6. ```ECG_Data\apnea-ecg-database-1.0.0``` These ECG recordings data set, for more information on it check https://physionet.org/content/apnea-ecg/1.0.0/
 7. ```ECG_Data\outputs``` These are the apnea annotations at each moment in time for each recording in a separate file txt.
-8. ```google_colab_notebooks\1D_CNN.ipynb``` This notebook implements, trains and evaluates a 1D CNN model to detect apnea from 1 minute signal segments.
+8. ```google_colab_notebooks\1D_CNN.ipynb``` This notebook implements, trains and evaluates a 1D CNN model to detect sleep apnea from 1 minute signal segments.
 9. ```google_colab_notebooks\1D_CNN_LSTM.ipynb``` This notebook implements, trains and evaluates a 1D CNN model with LSTM to detect apnea from 1 minute signal segments thus leveraging the time dependencies between segments.
 
 10. ```google_colab_notebooks\rp_CNN_google_net.ipynb``` This notebook uses google-net for transfer learning to make predictions of apnea on the spectrograms images generated from 1 minute signal segments
