@@ -36,7 +36,7 @@ This project aims to find the best classification model to detect sleep apnea fr
 
 1. run the ```images_creation\create_recurrence_plots.ipynb``` and ```images_creation\create_spectrograms.ipynb```, each of these scripts will create a folder for each spectrogram/recurrence_plots image and an csv that maps each image name to a label. Note it can take significant time to generate.
 
-#### To run the deep learning notebooks:
+#### To run the deep learning notebooks: 
 
 1. Use this link : https://drive.google.com/drive/folders/1Re6xYXUmrhiL9BZKLP32yYfAOGp7qlX5?usp=sharing
 This link provides all the data, it has the raw signals downloaded from Physionet as well as the spectrograms and recurrence plots in separate zip folders. The shared google drive folder is named "ML". From this shared folder, create a short cut to the main folder ("My Drive") in your google drive. You can do this by dragging/dropping the shared folder to "My Drive" (main google drive folder)
