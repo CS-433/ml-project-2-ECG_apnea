@@ -1,6 +1,6 @@
 # ML Project 2
 
-## A New 1D CNN Method to detect Sleep Apnea using a single-lead ECG signal and other models exploration
+## A new 1D CNN Method to detect Sleep Apnea using a single-lead ECG signal and other models exploration
 This project aims to find the best classification model to detect sleep apnea from ECG signal recordings of different subjects. The best results were obtained with 1D convolutional neural network.
 
 ### Files Description:
