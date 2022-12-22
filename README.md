@@ -46,8 +46,4 @@ Note that it takes a few minutes to generate the file (2-3 minutes)
 1. Use this link : https://drive.google.com/drive/folders/1Re6xYXUmrhiL9BZKLP32yYfAOGp7qlX5?usp=sharing
 This link provides all the data. It is a shared folder called "ML" for google drive. From this shared folder, create a short cut to the main folder ("My Drive") in your google drive. You can do this by dragging/dropping the shared folder to "My Drive" (main google drive folder)
 
-2. Run any of 5 notebooks present in ```google_colab_notebooks``` with google colab with the same account where the shared folder is present. It will ask you to connect to google drive to mount the data, proceed so. If step 1 has been done correctly and you have available gpu on google colab, the models should train and make the same predictions. If you have some unexpected problems with the drive of the path, it is always possible the change the directory name ```/My Drive/``` to make it fit your google drive folder. 
-
-
-Simply run the ```run.py``` in the cloned repository, making sure that the ```data``` folder sits in the folder of the ```run.py```. Make sure to add ```test.csv``` in the ```data``` folder. This will create a ```submission.csv``` in the ```data``` folder.
-Note that it takes a few minutes to generate the file (2-3 minutes)
+2. Run any of 5 notebooks present in ```google_colab_notebooks``` with google colab with the same account where the shared folder is present. It will ask you to connect to google drive to mount the data, proceed so. If step 1 has been done correctly and you have available gpu on google colab, the models should train and make the same predictions. If you have some unexpected problems with the drive of the path, it is always possible to change the directory name ```/My Drive/``` to make it fit your google drive folder. 
